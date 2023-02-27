@@ -25,7 +25,6 @@ table 50100 ZYUsersRoles
 
             trigger OnLookup()
             var
-                UserPersonalization: Record "User Personalization";
                 TempAllProfile: Record "All Profile" temporary;
             begin
                 PopulateProfiles(TempAllProfile);
